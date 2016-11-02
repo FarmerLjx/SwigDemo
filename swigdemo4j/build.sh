@@ -2,12 +2,12 @@
 
 # @Author: Jiaxiang Li
 # @Date:   2016-11-02 11:57:10
-# @Last Modified by:   Jiaxiang Li
-# @Last Modified time: 2016-11-02 15:12:08
+# @Last Modified by:   peenut
+# @Last Modified time: 2016-11-03 00:09:36
 
 # Need to change PROJECT_DIR,PACKAGE_NAME,OUT_DIR
 
-PROJECT_DIR="/home/mobvoi/AndroidStudioProjects/FromGithub/JniDemo/app/src/main"
+PROJECT_DIR="../JniDemo/app/src/main"
 PACKAGE_NAME="cc.hutunotes.farmerljx.jnidemo.jni"
 PACKAGE_PATH=`echo $PACKAGE_NAME |  sed 's/\./\//g'`
 OUT_DIR=${PROJECT_DIR}"/java/"${PACKAGE_PATH}

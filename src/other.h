@@ -19,17 +19,17 @@
 extern "C" {
 #endif
 
-typedef struct {
-    int index;
-    double value;
-}TestNode;
-
 enum {ZERO = 0, ONE, TWO, THREE, FOUR, FIVE};
 
 /* Global variable for readline function*/
 static int gValue = ZERO;
 
-/* Here canb be some algorithm*/
+typedef struct {
+    int index;
+    double value;
+}TestNode;
+
+/* Here can be some algorithm*/
 TestNode* init(double *data, int len);
 int algo(TestNode *pNodes);
 double get_value(const TestNode *pNodes, int index);
